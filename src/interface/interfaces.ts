@@ -1,5 +1,5 @@
 import axios from "axios";
-import { RegisterUser } from "./Register";
+import { RegisterUser } from "../pages/register/Register";
 
 const axiosInstance = axios.create({
     baseURL: 'http://localhost:3003/',

@@ -1,6 +1,6 @@
 import { Button, Form, Input, message } from 'antd';
 import './login.css';
-import { login } from './interfaces';
+import { login } from '../../interface/interfaces';
 import { useNavigate } from 'react-router-dom';
 import { useCallback } from 'react';
 
